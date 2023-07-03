@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Poppins:wght@200;300;400;500&display=swap');
+:root{
+  
+    --code: #faeaeb;
+    --data: #fbf0ee;
+    --secure: #e9f4f6;
+    --support: #f2e7f5;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', 'Poppins' , sans-serif;
+}
+.header-top{
+    border: 1px solid black;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.flex a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #e9f4f6;
+}
+.flex a:hover{
+    transition: 0.3s;
+    color: #000;
+}
+  
+.flex-justify-space-between{
+    justify-content: space-between;
+}
+  
+.flex-justify-space-around{
+    justify-content: space-around;
+}
+  
+.flex-column{
+    flex-direction: column;
+}
+  
+.flex-align-start{
+    align-items: flex-start;
+}
+  
+.flex-justify-start{
+    justify-content: flex-start;
+}
+  
+.flex-justify-end{
+    justify-content: flex-end;
+}
+
+.flex-gap{
+    gap: 4vw;
+}
+
+.flex-gap-sm{
+    gap: 2vh;
+}
+
+.flex-gap-md{
+    gap: 4vh;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.pxy-46{
+    padding: 4vh 6vw;
+}
+
+.pt-6{
+    padding-top: 12vh;
+}
+
+.pt-4{
+    padding-top: 4vh;
+}
+
+.pl-1{
+    padding-left: 1vw;
+}
+
+.text-white{
+    color: #ffffff;
+}
+
+.logo-container{
+    width: 12vw;
+}
+
+.list{
+    width: 40vw;
+}
+
+.list-item{
+    list-style: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}
+
+.list-item:hover{
+    color: var(--button);
+    border-bottom: 1px solid black;
+}
+
+.button-group{
+    width: 20vw;
+}
+.buttonn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 30px;
+}
+
+.button{
+    text-transform: uppercase;
+    background-color: rgb(210, 194, 17);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.hero-container{
+    height: 70vh;
+}
+
+
+.text-section{
+    width: 40vw;
+    margin-top: -80px;
+}
+
+.btn{
+    background-color: rgb(210, 194, 17);
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px 5px;
+}
+.image-section{
+    width: 50vw;
+}
+
+footer{
+    height: 60px;
+    background-color: #1b1a1a;
+    padding: 10px;
+    color: #fff;
+}
+.rem{
+    border: 2px solid #fff;
+    margin-left: 810px;
+    color: #fff;
+    padding: 5px;
+}
