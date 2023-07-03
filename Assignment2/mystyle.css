@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg, rgb(136, 47, 195) 0%, rgba(253,29,29,1) 50%, rgb(69, 252, 206) 100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin: 50px auto;
+    background: rgb(21,44,113);
+    border-radius: 10px;
+}
+
+
+form {
+	margin: 0 auto;
+	width: 600px;
+}
+p input{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
